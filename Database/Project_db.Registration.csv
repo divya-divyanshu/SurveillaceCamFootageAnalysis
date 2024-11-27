@@ -1,0 +1,343 @@
+_id,<!DOCTYPE,html>
+67472e80405e216202d00f95,<html,"lang=""en"">"
+67472e80405e216202d00f96,	<head>,
+67472e80405e216202d00f97,,
+67472e80405e216202d00f98,		<meta,"charset=""utf-8"">"
+67472e80405e216202d00f99,		<meta,"http-equiv=""X-UA-Compatible"""
+67472e80405e216202d00f9a,		<link,"href=""/img/favicon.ico"""
+67472e80405e216202d00f9b,,
+67472e80405e216202d00f9c,		<meta,"name=""viewport"""
+67472e80405e216202d00f9d,,
+67472e80405e216202d00f9e,		<title>CSV,to
+67472e80405e216202d00f9f,		<meta,"name=""description"""
+67472e80405e216202d00fa0,,
+67472e80405e216202d00fa1,		<script,"type=""text/javascript"">"
+67472e80405e216202d00fa2,			window.APP,=
+67472e80405e216202d00fa3,				page:,"csv2json"",\n				run: true,\n				version: 0.316,\n				id: null,\n				data: null,\n				data_url: null			};\n		</script>\n\n		<script src=""//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"
+67472e80405e216202d00fa4,		<link,"rel=""stylesheet"""
+67472e80405e216202d00fa5,		<link,"href=""https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"""
+67472e80405e216202d00fa6,		<script,"src=""https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js""></script>"
+67472e80405e216202d00fa7,,
+67472e80405e216202d00fa8,		<link,"rel=""stylesheet"""
+67472e80405e216202d00fa9,,
+67472e80405e216202d00faa,			<script,"src=""//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js""></script>"
+67472e80405e216202d00fab,,
+67472e80405e216202d00fac,		<link,"href=""/js/3rd/jQuery-File-Upload/css/jquery.fileupload.css"""
+67472e80405e216202d00fad,		<link,"rel=""stylesheet"""
+67472e80405e216202d00fae,,
+67472e80405e216202d00faf,		,
+67472e80405e216202d00fb0,								<link,"href=""/css/csvjson.css?v=0.316"""
+67472e80405e216202d00fb1,									<script,"src=""/js/3rd.min.js?v=0.316"""
+67472e80405e216202d00fb2,									<script,"src=""/js/csvjson.min.js?v=0.316"""
+67472e80405e216202d00fb3,									<script,"src=""/js/app.min.js?v=0.316"""
+67472e80405e216202d00fb4,			,
+67472e80405e216202d00fb5,		,
+67472e80405e216202d00fb6,		,
+67472e80405e216202d00fb7,		<script>,
+67472e80405e216202d00fb8,			!function(){var,"analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error(""Segment"
+67472e80405e216202d00fb9,"				analytics.load(""mVmXAtABgYVqPdbXw1a4Y19vcesa1cec"");",
+67472e80405e216202d00fba,				analytics.page();,
+67472e80405e216202d00fbb,			}}();,
+67472e80405e216202d00fbc,,
+67472e80405e216202d00fbd,			analytics.ready(function(){,
+67472e80405e216202d00fbe,				var,flatfileLinks
+67472e80405e216202d00fbf,,
+67472e80405e216202d00fc0,				flatfileLinks.each(function(){,
+67472e80405e216202d00fc1,					var,bareURL
+67472e80405e216202d00fc2,"					$(this).attr('href',",bareURL
+67472e80405e216202d00fc3,				}),
+67472e80405e216202d00fc4,,
+67472e80405e216202d00fc5,"				analytics.trackLink(flatfileLinks,",'Clicked
+67472e80405e216202d00fc6,			}),
+67472e80405e216202d00fc7,	</script>,
+67472e80405e216202d00fc8,	<!--,Global
+67472e80405e216202d00fc9,	<script,async
+67472e80405e216202d00fca,	<script>,
+67472e80405e216202d00fcb,	,
+67472e80405e216202d00fcc,	,
+67472e80405e216202d00fcd,	,
+67472e80405e216202d00fce,	,
+67472e80405e216202d00fcf,	</script>,
+67472e80405e216202d00fd0,</head>,
+67472e80405e216202d00fd1,<body>,
+67472e80405e216202d00fd2,		<header,"class=""px-4"
+67472e80405e216202d00fd3,	,
+67472e80405e216202d00fd4,					<div,"class=""d-flex"
+67472e80405e216202d00fd5,								<a,"href=""/"""
+67472e80405e216202d00fd6,									<img,"src=""img/logo_bg-light.svg"""
+67472e80405e216202d00fd7,								</a>,
+67472e80405e216202d00fd8,							</div>,
+67472e80405e216202d00fd9,,
+67472e80405e216202d00fda,							<a,"class=""btn"
+67472e80405e216202d00fdb,								<img,"src=""img/flatfile-jewel.svg"""
+67472e80405e216202d00fdc,								<b>Turnkey,CSV
+67472e80405e216202d00fdd,							</a>,
+67472e80405e216202d00fde,			</div>,
+67472e80405e216202d00fdf,,
+67472e80405e216202d00fe0,					<header,"class=""px-4"
+67472e80405e216202d00fe1,				<div,"class=""container"
+67472e80405e216202d00fe2,					<div,"class=""row"">"
+67472e80405e216202d00fe3,						<div,"class=""col-md-12"">"
+67472e80405e216202d00fe4,							<nav,"aria-label=""breadcrumb"">"
+67472e80405e216202d00fe5,								<ol,"class=""breadcrumb"">"
+67472e80405e216202d00fe6,									<li,"class=""breadcrumb-item""><a"
+67472e80405e216202d00fe7,									<li,"class=""breadcrumb-item"
+67472e80405e216202d00fe8,,
+67472e80405e216202d00fe9,										<div,"class=""dropdown"
+67472e80405e216202d00fea,													<a,"href=""#"""
+67472e80405e216202d00feb,														csv2json													</a>,
+67472e80405e216202d00fec,													<ul,"class=""dropdown-menu"
+67472e80405e216202d00fed,														<li><a,"class=""dropdown-item"
+67472e80405e216202d00fee,														<li><a,"class=""dropdown-item"
+67472e80405e216202d00fef,														<li><a,"class=""dropdown-item"
+67472e80405e216202d00ff0,														<li><a,"class=""dropdown-item"
+67472e80405e216202d00ff1,														<li><hr,"class=""dropdown-divider""></li>"
+67472e80405e216202d00ff2,														<li><a,"class=""dropdown-item"""
+67472e80405e216202d00ff3,													</ul>,
+67472e80405e216202d00ff4,												</div>,
+67472e80405e216202d00ff5,									</li>,
+67472e80405e216202d00ff6,								</ol>,
+67472e80405e216202d00ff7,							</nav>,
+67472e80405e216202d00ff8,						</div>,
+67472e80405e216202d00ff9,					</div>,
+67472e80405e216202d00ffa,				</div>,
+67472e80405e216202d00ffb,			</header>,
+67472e80405e216202d00ffc,		,
+67472e80405e216202d00ffd,		<div,"class=""container"
+67472e80405e216202d00ffe,	<div,"class=""row"">"
+67472e80405e216202d00fff,		<div,"class=""description"
+67472e80405e216202d01000,			<h1,"class=""text-primary"
+67472e80405e216202d01001,			<p>To,get
+67472e80405e216202d01002,		</div>,
+67472e80405e216202d01003,	</div>,
+67472e80405e216202d01004,,
+67472e80405e216202d01005,	<div,"class=""row"
+67472e80405e216202d01006,		<div,"class=""col-md-5"
+67472e80405e216202d01007,			<div,"class=""mb-5"">"
+67472e80405e216202d01008,				<label,"for=""fileupload"""
+67472e80405e216202d01009,				<input,"id=""fileupload"""
+67472e80405e216202d0100a,			</div>,
+67472e80405e216202d0100b,			<div,"class=""mb-3"">"
+67472e80405e216202d0100c,				<label,"for=""csv"""
+67472e80405e216202d0100d,<textarea,"id=""csv"""
+67472e80405e216202d0100e,"album,","year,"
+67472e80405e216202d0100f,The,White
+67472e80405e216202d01010,De,"Stijl,"
+67472e80405e216202d01011,White,Blood
+67472e80405e216202d01012,"Elephant,","2003,"
+67472e80405e216202d01013,Get,Behind
+67472e80405e216202d01014,Icky,"Thump,"
+67472e80405e216202d01015,Under,Great
+67472e80405e216202d01016,Live,in
+67472e80405e216202d01017,Live,at
+67472e80405e216202d01018,Nine,Miles
+67472e80405e216202d01019,</textarea>,
+67472e80405e216202d0101a,			</div>,
+67472e80405e216202d0101b,			<button,"id=""convert"""
+67472e80405e216202d0101c,				<i,"class=""bi"
+67472e80405e216202d0101d,			</button>,
+67472e80405e216202d0101e,			<button,"id=""clear"""
+67472e80405e216202d0101f,				<i,"class=""bi"
+67472e80405e216202d01020,			</button>,
+67472e80405e216202d01021,		</div>,
+67472e80405e216202d01022,,
+67472e80405e216202d01023,		<div,"class=""col-md-7"
+67472e80405e216202d01024,			<div,"class=""mb-3"">"
+67472e80405e216202d01025,				<div,"class=""form-check-inline"">"
+67472e80405e216202d01026,					<label,"class=""form-label"
+67472e80405e216202d01027,						<div,"class=""mb-2"">Separator</div>"
+67472e80405e216202d01028,						<select,"class=""form-select"""
+67472e80405e216202d01029,							<option,"value=""auto"""
+67472e80405e216202d0102a,							<option,"value=""comma"">Comma</option>"
+67472e80405e216202d0102b,							<option,"value=""semiColon"">Semi-colon</option>"
+67472e80405e216202d0102c,							<option,"value=""tab"">Tab</option>"
+67472e80405e216202d0102d,						</select>,
+67472e80405e216202d0102e,					</label>,
+67472e80405e216202d0102f,				</div>,
+67472e80405e216202d01030,				<div,"class=""form-check-inline"">"
+67472e80405e216202d01031,					<input,"type=""checkbox"""
+67472e80405e216202d01032,						,Parse
+67472e80405e216202d01033,					</label>,
+67472e80405e216202d01034,				</div>,
+67472e80405e216202d01035,				<div,"class=""form-check-inline"">"
+67472e80405e216202d01036,					<input,"type=""checkbox"""
+67472e80405e216202d01037,						,Parse
+67472e80405e216202d01038,					</label>,
+67472e80405e216202d01039,				</div>,
+67472e80405e216202d0103a,				<div,"class=""form-check-inline"">"
+67472e80405e216202d0103b,					<input,"type=""checkbox"""
+67472e80405e216202d0103c,					<label,"for=""transpose"""
+67472e80405e216202d0103d,						,Transpose
+67472e80405e216202d0103e,					</label>,
+67472e80405e216202d0103f,				</div>,
+67472e80405e216202d01040,				<br/>,
+67472e80405e216202d01041,				<div,"class=""form-check-inline"">"
+67472e80405e216202d01042,					<label,"class=""form-check-label"
+67472e80405e216202d01043,					<input,"type=""radio"""
+67472e80405e216202d01044,					<label,"for=""output-array"""
+67472e80405e216202d01045,						Array,
+67472e80405e216202d01046,					</label>,
+67472e80405e216202d01047,				</div>,
+67472e80405e216202d01048,				<div,"class=""form-check-inline"">"
+67472e80405e216202d01049,					<input,"type=""radio"""
+67472e80405e216202d0104a,					<label,"for=""output-hash"""
+67472e80405e216202d0104b,						Hash,
+67472e80405e216202d0104c,					</label>,
+67472e80405e216202d0104d,				</div>,
+67472e80405e216202d0104e,				<div,"class=""form-check-inline"">"
+67472e80405e216202d0104f,					<input,"type=""checkbox"""
+67472e80405e216202d01050,					<label,"for=""minify"""
+67472e80405e216202d01051,						,Minify
+67472e80405e216202d01052,					</label>,
+67472e80405e216202d01053,				</div>,
+67472e80405e216202d01054,			</div>,
+67472e80405e216202d01055,			<div,"class=""mb-3"">"
+67472e80405e216202d01056,,
+67472e80405e216202d01057,,
+67472e80405e216202d01058,</div>,
+67472e80405e216202d01059,<a,"id=""download"""
+67472e80405e216202d0105a,,
+67472e80405e216202d0105b,</a>,
+67472e80405e216202d0105c,<a,"id=""copy"""
+67472e80405e216202d0105d,		</div>,
+67472e80405e216202d0105e,	</div>,
+67472e80405e216202d0105f,</div>,
+67472e80405e216202d01060,,
+67472e80405e216202d01061,,
+67472e80405e216202d01062,,
+67472e80405e216202d01063,<div,"class=""container"
+67472e80405e216202d01064,,
+67472e80405e216202d01065,	<h2,"class=""pb-2"
+67472e80405e216202d01066,,
+67472e80405e216202d01067,	<div,"class=""row"
+67472e80405e216202d01068,	,
+67472e80405e216202d01069,	,
+67472e80405e216202d0106a,				<p>,
+67472e80405e216202d0106b,					Embed,all
+67472e80405e216202d0106c,				</p>,
+67472e80405e216202d0106d,			</div>,
+67472e80405e216202d0106e,		</div>,
+67472e80405e216202d0106f,	</div>,
+67472e80405e216202d01070,,
+67472e80405e216202d01071,</div>,
+67472e80405e216202d01072,,
+67472e80405e216202d01073,<div,"class=""container"
+67472e80405e216202d01074,,
+67472e80405e216202d01075,,
+67472e80405e216202d01076,,
+67472e80405e216202d01077,,
+67472e80405e216202d01078,,
+67472e80405e216202d01079,,
+67472e80405e216202d0107a,					<ul>,
+67472e80405e216202d0107b,						<li>,
+67472e80405e216202d0107c,							This,function
+67472e80405e216202d0107d,						</li>,
+67472e80405e216202d0107e,						<li>,
+67472e80405e216202d0107f,							CSV,stands
+67472e80405e216202d01080,							Often,used
+67472e80405e216202d01081,						</li>,
+67472e80405e216202d01082,						<li>,
+67472e80405e216202d01083,							The,CSV
+67472e80405e216202d01084,						</li>,
+67472e80405e216202d01085,						<li>,
+67472e80405e216202d01086,							The,first
+67472e80405e216202d01087,						</li>,
+67472e80405e216202d01088,						<li>,
+67472e80405e216202d01089,							Fields,containing
+67472e80405e216202d0108a,						</li>,
+67472e80405e216202d0108b,						<li>,
+67472e80405e216202d0108c,							Other,separator
+67472e80405e216202d0108d,							TSV,or
+67472e80405e216202d0108e,							When,data
+67472e80405e216202d0108f,						</li>,
+67472e80405e216202d01090,						<li>,
+67472e80405e216202d01091,							With,CSVJSON
+67472e80405e216202d01092,						</li>,
+67472e80405e216202d01093,						<li>,
+67472e80405e216202d01094,							With,CSVJSON
+67472e80405e216202d01095,						</li>,
+67472e80405e216202d01096,						<li>,
+67472e80405e216202d01097,							With,CSVJSON
+67472e80405e216202d01098,						</li>,
+67472e80405e216202d01099,					</ul>,
+67472e80405e216202d0109a,					<p>,
+67472e80405e216202d0109b,						<a,"class=""btn"
+67472e80405e216202d0109c,							View,Change
+67472e80405e216202d0109d,						</a>,
+67472e80405e216202d0109e,					</p>,
+67472e80405e216202d0109f,,
+67472e80405e216202d010a0,,
+67472e80405e216202d010a1,,
+67472e80405e216202d010a2,,
+67472e80405e216202d010a3,		<div,"id=""collapseOne"""
+67472e80405e216202d010a4,			,
+67472e80405e216202d010a5,						<div>,
+67472e80405e216202d010a6,								<h5>Mar,"20,"
+67472e80405e216202d010a7,								<h5>Feb,"2,"
+67472e80405e216202d010a8,								<h5>Jan,"26,"
+67472e80405e216202d010a9,								<h5>Mar,"31,"
+67472e80405e216202d010aa,								<h5>Dec,"18,"
+67472e80405e216202d010ab,								<h5>Oct,"7,"
+67472e80405e216202d010ac,								<h5>Jul,"09,"
+67472e80405e216202d010ad,								<h5>Jun,"20,"
+67472e80405e216202d010ae,								<h5>Dec,"30,"
+67472e80405e216202d010af,								<h5>Nov,"26,"
+67472e80405e216202d010b0,								<h5>Jan,"30,"
+67472e80405e216202d010b1,								<h5>Jan,"12,"
+67472e80405e216202d010b2,						</div>,
+67472e80405e216202d010b3,,
+67472e80405e216202d010b4,			,
+67472e80405e216202d010b5,			,
+67472e80405e216202d010b6,,
+67472e80405e216202d010b7,,
+67472e80405e216202d010b8,,
+67472e80405e216202d010b9,</div>,
+67472e80405e216202d010ba,,
+67472e80405e216202d010bb,		<footer,"class=""bd-footer"
+67472e80405e216202d010bc,,
+67472e80405e216202d010bd,		,
+67472e80405e216202d010be,		,
+67472e80405e216202d010bf,		,
+67472e80405e216202d010c0,							<img,"src=""./img/logo_bg-light.svg"""
+67472e80405e216202d010c1,		,
+67472e80405e216202d010c2,		,
+67472e80405e216202d010c3,		,
+67472e80405e216202d010c4,		,
+67472e80405e216202d010c5,		,
+67472e80405e216202d010c6,		,
+67472e80405e216202d010c7,		,
+67472e80405e216202d010c8,		,
+67472e80405e216202d010c9,		,
+67472e80405e216202d010ca,		,
+67472e80405e216202d010cb,							<li,"class=""mb-2""><a"
+67472e80405e216202d010cc,							<li,"class=""mb-2""><a"
+67472e80405e216202d010cd,		,
+67472e80405e216202d010ce,		,
+67472e80405e216202d010cf,					<div,"class=""col-sm-6"
+67472e80405e216202d010d0,		,
+67472e80405e216202d010d1,		,
+67472e80405e216202d010d2,		,
+67472e80405e216202d010d3,		,
+67472e80405e216202d010d4,							<!--<li,"class=""mb-2""><a"
+67472e80405e216202d010d5,						</ul>,
+67472e80405e216202d010d6,		,
+67472e80405e216202d010d7,		,
+67472e80405e216202d010d8,		,
+67472e80405e216202d010d9,		,
+67472e80405e216202d010da,							<li,"class=""mb-2""><a"
+67472e80405e216202d010db,							<li,"class=""mb-2""><a"
+67472e80405e216202d010dc,		,
+67472e80405e216202d010dd,		,
+67472e80405e216202d010de,		,
+67472e80405e216202d010df,		,
+67472e80405e216202d010e0,		,
+67472e80405e216202d010e1,		,
+67472e80405e216202d010e2,,
+67472e80405e216202d010e3,		</footer>,
+67472e80405e216202d010e4,,
+67472e80405e216202d010e5,		<script,"type=""text/javascript"">"
+67472e80405e216202d010e6,			_linkedin_partner_id,=
+67472e80405e216202d010e7,		</noscript>,
+67472e80405e216202d010e8,,
+67472e80405e216202d010e9,	</body>,
+67472e80405e216202d010ea,</html>,
